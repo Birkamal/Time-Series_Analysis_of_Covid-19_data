@@ -1,20 +1,20 @@
 # Time-Series_Analysis_of_Covid-19_data
 
-Tasks to be performed:
+# Tasks to be performed:
 
-    Scrape out the COVID-19 from websites
-    Figure out the death rate and cure rate per 100 across the affected states
-    Create different charts to visualize the following:
+    - Scrape out the COVID-19 from websites
+    - Figure out the death rate and cure rate per 100 across the affected states
+    - Create different charts to visualize the following:
         Age group distribution of affected patients
         Total sample test done till date
         Growth rate of COVID in top 15 states
         Top 10 States in each health facility
         State wise testing insight
-    Use Prophet to predict the confirmed cases in India
-    Use ARIMA to predict the confirmed cases in India
-    Compare the Indian COVID cases globally
+    - Use Prophet to predict the confirmed cases in India
+    - Use ARIMA to predict the confirmed cases in India
+    - Compare the Indian COVID cases globally
 
-Data Source:
+# Data Source:
 
     https://www.mohfw.gov.in/
     https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset
@@ -22,7 +22,7 @@ Data Source:
     https://api.covid19india.org/
 
 
-Prophet Package
+# Prophet Package
 
 Prophet is open source software released by Facebook’s Core Data Science team. It is available for download on CRAN and PyPI.
 
@@ -35,9 +35,16 @@ References
 
 The input to Prophet is always a dataframe with two columns: **ds** and **y**. The **ds (datestamp)** column should be of a format expected by Pandas, ideally YYYY-MM-DD for a date or YYYY-MM-DD HH:MM:SS for a timestamp. The y column must be numeric, and represents the measurement we wish to forecast.
 
-How this model can be useful in fighting the COVID-19 pandemic?
+# ARIMA Model
+ARIMA stands for **Auto Regressive Integrated Moving Average**. There are seasonal and Non-seasonal ARIMA models that can be used for forecasting.
 
-    Medical resource optimization
-    Ensuring demand planning stability
-    Contact tracing
-    Situational awareness and critical response analysis
+Autoregressive (AR) component: A purely AR model forecasts only using a combination of the past values like linear regression, where the number of AR terms used is directly proportional to the number of previous periods taken into consideration for the forecasting.
+
+Moving Averages(MA): Random jumps in the time series plot, effect of which is felt in two or more consecutive periods. These jumps represent the error calculated in the ARIMA model and represent what the MA component would lag for.
+
+# How this model can be useful in fighting the COVID-19 pandemic?
+
+    - Medical resource optimization
+    - Ensuring demand planning stability
+    - Contact tracing
+    - Situational awareness and critical response analysis
