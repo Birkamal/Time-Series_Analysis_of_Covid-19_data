@@ -1,6 +1,6 @@
 # Time-Series_Analysis_of_Covid-19_data
 
-# Tasks to be performed:
+# Tasks performed:
 
     - Scrape out the COVID-19 from websites
     - Figure out the death rate and cure rate per 100 across the affected states
