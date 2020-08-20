@@ -3,7 +3,6 @@
 ## Tasks performed:
 
     - Scrape out the COVID-19 data from government website
-    - Scrape out the COVID-19 from websites
     - Figure out the death rate and cure rate per 100 across the affected states
     - Create different charts to visualize the following:
         Age group distribution of affected patients
