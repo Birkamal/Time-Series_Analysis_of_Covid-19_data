@@ -1,7 +1,8 @@
-# Time-Series_Analysis_of_Covid-19_data
+# Time-Series_Analysis_of_Covid-19_data using Prophet Package and ARIMA Model
 
-# Tasks performed:
+## Tasks performed:
 
+    - Scrape out the COVID-19 data from government website
     - Scrape out the COVID-19 from websites
     - Figure out the death rate and cure rate per 100 across the affected states
     - Create different charts to visualize the following:
@@ -14,7 +15,7 @@
     - Use ARIMA to predict the confirmed cases in India
     - Compare the Indian COVID cases globally
 
-# Data Source:
+## Data Source:
 
     https://www.mohfw.gov.in/
     https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset
@@ -22,7 +23,7 @@
     https://api.covid19india.org/
 
 
-# Prophet Package
+## Prophet Package
 
 Prophet is open source software released by Facebook’s Core Data Science team. It is available for download on CRAN and PyPI.
 
@@ -35,7 +36,7 @@ References
 
 The input to Prophet is always a dataframe with two columns: **ds** and **y**. The **ds (datestamp)** column should be of a format expected by Pandas, ideally YYYY-MM-DD for a date or YYYY-MM-DD HH:MM:SS for a timestamp. The y column must be numeric, and represents the measurement we wish to forecast.
 
-# ARIMA Model
+## ARIMA Model
 ARIMA stands for **Auto Regressive Integrated Moving Average**. There are seasonal and Non-seasonal ARIMA models that can be used for forecasting.
 
 Autoregressive (AR) component: A purely AR model forecasts only using a combination of the past values like linear regression, where the number of AR terms used is directly proportional to the number of previous periods taken into consideration for the forecasting.
